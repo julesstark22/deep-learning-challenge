@@ -26,16 +26,20 @@ Feature engineering to extract more relevant information or create new features.
 Hyperparameter tuning to optimize the model's architecture, learning rate, batch size, etc.
 Regularization techniques like dropout or L2 regularization to prevent overfitting.
 Increasing model complexity by adding more layers or neurons, or utilizing advanced architectures like convolutional neural networks (CNNs) or recurrent neural networks (RNNs).
+
 4. Results
 4.1 Data Preprocessing Results
 The target variable "IS_SUCCESSFUL" is well-balanced, with a distribution of X% successful and Y% unsuccessful applicants.
 The feature variables exhibit varying degrees of correlation with the target variable, indicating their potential relevance for predicting funding success.
+
 4.2 Model Training and Evaluation Results
 The deep learning model achieved an accuracy of XX% on the training set and YY% on the testing set.
 Precision, recall, and F1-score metrics were also calculated to assess the model's performance on different evaluation aspects.
+
 4.3 Optimization Attempts and Performance
 Several optimization methods were employed to improve the model's performance, including early stopping, learning rate schedule, and model checkpoint.
 The optimized model showed a slight improvement in accuracy, reaching ZZ% on the testing set compared to the initial model's performance.
+
 5. Summary of Model Performance
 The deep learning model developed for Alphabet Soup demonstrated promising results in predicting the success of funding applicants. By implementing optimization techniques, the model's accuracy was enhanced to a satisfactory level. However, further improvements could be made by exploring advanced architectures, hyperparameter tuning, and feature engineering.
 
