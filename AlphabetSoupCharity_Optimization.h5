@@ -1,0 +1,12 @@
+import h5py
+
+# Create a new HDF5 file
+file = h5py.File("AlphabetSoupCharity_Optimization.h5", "w")
+
+# Store the results in the HDF5 file
+file.create_dataset("result1", data=result1)
+file.create_dataset("result2", data=result2)
+# ... add more datasets for other results ...
+
+# Close the HDF5 file
+file.close()
